@@ -1,1 +1,17 @@
+/* Style for the main content section */
+.section-box {
+  background-color: #e0e0e0;  /* Light gray background to distinguish it */
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  line-height: 1.6;
+}
 
+/* Optional: Add some spacing for smaller screens */
+@media (max-width: 767px) {
+  .section-box {
+    margin: 10px;
+    font-size: 15px;
+  }
+}
