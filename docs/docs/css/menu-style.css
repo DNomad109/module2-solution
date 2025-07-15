@@ -36,3 +36,12 @@
     font-size: 18px;
   }
 }
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.section-bg {
+  background-color: #f9f9f9;
+  padding: 30px;
+}
