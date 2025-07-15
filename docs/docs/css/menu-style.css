@@ -1,17 +1,38 @@
-/* Style for the main content section */
-.section-box {
-  background-color: #e0e0e0;  /* Light gray background to distinguish it */
+/* Style for the menu section */
+.menu-section {
+  background-color: #e0e0e0; /* Light gray background */
   padding: 20px;
-  margin-bottom: 20px;
-  border: 1px solid #ccc;
+  height: 1000px; /* Makes the section tall enough to allow scrolling */
+  border-radius: 4px;
+  margin-top: 20px;
   font-size: 16px;
   line-height: 1.6;
 }
 
-/* Optional: Add some spacing for smaller screens */
+/* Add margin below navbar */
+.navbar {
+  margin-bottom: 30px;
+}
+
+/* Customize navbar brand text */
+.navbar-brand {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/* Center headings inside section */
+.menu-section h3 {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+/* Mobile view dropdown full width */
 @media (max-width: 767px) {
-  .section-box {
-    margin: 10px;
-    font-size: 15px;
+  .navbar-nav > li > a {
+    text-align: center;
+    background-color: #ddd;
+    border-top: 1px solid #ccc;
+    padding: 15px;
+    font-size: 18px;
   }
 }
