@@ -1,12 +1,14 @@
-/* Style for the menu section */
 .menu-section {
-  background-color: #b0b0b0; /* Darker gray background */
-  height: 1000px; /* Make the section tall enough to allow scrolling */
-  padding: 20px;
+  background-color: #b0b0b0; /* Darker gray */
+  color: white; /* Ensure text shows */
+  padding: 30px;
   border-radius: 4px;
   margin-top: 20px;
   font-size: 16px;
   line-height: 1.6;
+  width: 100%; /* Ensure full width */
+  box-sizing: border-box;
+}
 }
 
 /* Add margin below navbar */
